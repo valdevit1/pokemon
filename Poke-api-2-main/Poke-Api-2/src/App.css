@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+img {
+  width: 30%;
+}
+
+.pokeMarcador {
+  width: 10%;
+}
+
+.navbar {
+  background-color: #c2f313;
+  padding: 10px;
+  color: white;
+}
+
+.box-home {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.box-listPokemon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-selectListPokemon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-card{
+  width: 322px;
+  height: 450px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+  background: linear-gradient(to bottom, #f8d030, #f08030);
+}
+
+.box-card h1 {
+  color: #f15544;
+  font-family: 'Arial', sans-serif;
+}
+
+.box-card img {
+  max-width: 65%;
+  height: auto;
+}
+.box-card p {
+  color: #333; 
+  font-family: 'Verdana', sans-serif;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: red;
+}
